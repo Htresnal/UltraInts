@@ -24,8 +24,8 @@ std::string calcResult();
 
 int main()
 {
-  a = "18446744073709551615";
-  b = "21046948076709451214";
+  a = "1200";
+  b = "3400";
   symbolMath="+";
   std::cout << "Welcome to the Multi Precision Library workflow test\nIn this programm, you can work with ultra long numbers.\n";
   std::string tmpString;
