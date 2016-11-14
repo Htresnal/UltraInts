@@ -33,10 +33,11 @@ int main()
   {
       tmpString="";
       std::cout<<"Please, press 'A' or 'B' to enter value."<<'\n';
-      std::cout<<"Press 'S' to change algebraic operation symbol."<<'\n'<<'\n';
+      std::cout<<"Press 'S' to change algebraic operation symbol:"<<'\n';
+      std::cout<<"'+', '-', '*', '/', '%', '^'"<<'\n'<<'\n';
       std::cout<<"a="<<a<<'\n';
       std::cout<<"b="<<b<<'\n'<<'\n';
-      std::cout<<a<<' '<<symbolMath<<' '<<b<<' '<<'='<<' '<<((a==0 || b==0)?"0":calcResult())<<'\n'<<'\n';
+      std::cout<<a<<' '<<symbolMath<<' '<<b<<' '<<'='<<' '<<(((b==0)&&(symbolMath=="/"))?"0":calcResult())<<'\n'<<'\n';
       std::cin>>answ;
       switch (answ)
       {
