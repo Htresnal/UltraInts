@@ -1,10 +1,4 @@
 #include "UltraInts.h"
-#include <iostream>
-#include <stdlib.h>
-#include <string>
-#include <math.h>
-#include <gmp.h>
-#include <gmpxx.h>
 
 char answ;
 std::string symbolMath;
@@ -22,7 +16,7 @@ bool is_mathSigns(const std::string &str)
 
 std::string calcResult();
 
-int main()
+int main(int argc=0, char *argv[]=NULL)
 {
   a = "1200";
   b = "3400";
